@@ -1,7 +1,7 @@
 #!/usr/bin/sbcl --script
 
-(setq p 1)
-(setq n 100000)
+(defvar p 1)
+(defvar n 100000)
 (print 2)
 (print 3)
 
