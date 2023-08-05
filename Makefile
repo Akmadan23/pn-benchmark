@@ -4,6 +4,7 @@ build:
 	go build -o go/pn go/pn.go
 	nim compile -o:nim/pn nim/pn.nim
 	zig build-exe zig/pn.zig -femit-bin=zig/pn
+	ocamlopt -o ocaml/pn ocaml/pn.ml
 	rustc -o rust/pn rust/pn.rs
 	javac java/pn.java
 

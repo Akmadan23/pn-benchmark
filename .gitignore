@@ -1,4 +1,7 @@
 */pn
 java/pn.class
+ocaml/pn.cmi
+ocaml/pn.cmx
+ocaml/pn.o
 rust/Cargo.toml
 zig/zig-cache
